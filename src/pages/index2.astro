@@ -1,0 +1,63 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const last_posts = posts.slice(0, 3);
+---
+
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-12 mt-5">
+    <div class="text-xl py-1">Bienvenue 👋</div>
+    <div class="text-5xl font-bold">Je suis Ryan Bouchou</div>
+    <div class="text-3xl py-3 font-bold">Élève ingénieur</div>
+    <div class="py-2">
+      <text class="text-lg">
+        Vous retrouverez ici mes différentes ressources concernant mes <b>enseignement</b> principalement en informatique, mes <b>projets personnels</b>
+        ainsi que d'autres <b>actualités</b>.
+      </text>
+    </div>
+    <div class="mt-8">
+      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
+      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
+        Get This template
+      </a>
+    </div>
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">Mes derniers projets {"</>"}</div>
+  </div>
+
+  <HorizontalCard
+    title="TIPE 2023 : La ville"
+    img="/post_img.webp"
+    desc="Nos villes, soumises à des densités de population croissantes et des déplacements pendulaires subséquents, doivent se munir de réseaux de transport en commun adaptés à leurs topologies"
+    url="#"
+    badge="Achevé"
+  />
+  <div class="divider my-0"></div>
+
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Mes dernières publications</div>
+  </div>
+
+  {
+    last_posts.map((post) => (
+      <>
+        <HorizontalCard
+          title={post.data.title}
+          img={post.data.heroImage}
+          desc={post.data.description}
+          url={"/blog/" + post.slug}
+          target="_self"
+          badge={post.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  }
+</BaseLayout>

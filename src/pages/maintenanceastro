@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title = "404: Not Found" includeSidebar={false}>
+  <div class="text-center">
+    <h1 class="text-9xl font-bold mb-4">🏝</h1>
+    <h1 class="text-9xl font-bold mb-2">Maintenance</h1>
+    <h3 class="text-2xl">Ce site sera à nouveau bientôt disponible!</h3>
+    
+  </div>
+</BaseLayout>

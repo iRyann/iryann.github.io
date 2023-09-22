@@ -48,7 +48,7 @@ modélisation du problème réside en l’établissement d’un graphe basé sur
 d’une ville, auquel on adjoint une densité de population. Ce problème attrait alors à tout un
 pan de l’informatique, et des mathématiques : l’optimisation. En vue de son traitement, nous
 disposons d’un ensemble de méthodes où leur diversité même apparaît déterminante dans la
-confrontation des solutions calculées. C’est bien dans le champ de l’heuristique[3], ou bien par le
+confrontation des solutions calculées. C’est bien dans le champ de l’heuristique[^3], ou bien par le
 biais d’algorithmes évolutionnistes[^4], que s’épanchent nos perspectives de travail. En effet, les
 potentialités que nous ouvrent ces algorithmes sont de l’ordre de l’approximation d’une solution
 réalisable en des temps de calculs décents.

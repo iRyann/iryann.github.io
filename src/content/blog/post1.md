@@ -1,7 +1,7 @@
 ---
 title: "Détails des objectifs du TIPE"
 description: "Modélisation d'un problème d'optimisation"
-pubDate: "13 Juillet 2023"
+pubDate: "Juillet 10 2023"
 heroImage: "/post_img.webp"
 ---
 

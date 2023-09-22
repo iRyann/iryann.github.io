@@ -16,7 +16,7 @@ outil nécessaire aux déplacements de population. En effet, ils répondent à d
 plus importants en termes d’efficience dans la fluidification des flux et réduction des conflits d’
 usages.
 
-## Positionnement thématique (ÉTAPE 1) :
+## Positionnement thématique :
 - INFORMATIQUE (Informatique pratique)
 - MATHEMATIQUES (Autres)
 

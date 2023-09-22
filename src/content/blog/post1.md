@@ -16,11 +16,11 @@ outil nécessaire aux déplacements de population. En effet, ils répondent à d
 plus importants en termes d’efficience dans la fluidification des flux et réduction des conflits d’
 usages.
 
-## Positionnement thématique :
+## Positionnement thématique
 - INFORMATIQUE (Informatique pratique)
 - MATHEMATIQUES (Autres)
 
-## Mots-clés (ÉTAPE 1) :
+## Mots-clés
 
 - optimisation
 - réseaux

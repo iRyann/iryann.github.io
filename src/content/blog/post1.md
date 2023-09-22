@@ -2,7 +2,7 @@
 title: "Détails des objectifs du TIPE"
 description: "Modélisation d'un problème d'optimisation"
 pubDate: "Jul 10 2023"
-heroImage: "/post_img.webp"
+heroImage: "/paris.webp"
 ---
 
 
@@ -66,5 +66,4 @@ données récoltées. Établissement de la fonction objectif et mise en forme de
 durables : Revue internationale des sciences sociales 2003/2 (n° 176), pages 243 à 260
 [^2]: TOULOUSE MÉTROPOLE : Filaire de voirie - Toulouse Métropole : https://www.data.toulouse-metropole.fr/explore/dataset/filaire-de-voirie/information/
 [^3]: PIERRE-EDOUARD PORTIER : Recuit simulé - Cours : https://perso.liris.cnrs.fr/pierreedouard.portier/teaching20152016/ia/sima/sima.html
-[^4]: CHARLES FLEURENT : Algorithmes génétiques : https://accromath.uqam.ca/2019/10
-/algorithmes-genetiques/
+[^4]: CHARLES FLEURENT : Algorithmes génétiques : https://accromath.uqam.ca/2019/10/algorithmes-genetiques/

@@ -20,15 +20,6 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   </div>
 
   <HorizontalCard
-    title="Bases en Python - ITC CPGE"
-    img="/ressources/python.png"
-    desc="Attendus au programme des deux premiers semestres d'informatique tronc commun en CPGE."
-    url="https://iryann.github.io/ressources/Python.pdf"
-    badge="Non à jour"
-  />
-  <div class="divider my-0"></div>
-  
-  <HorizontalCard
     title="Cours de OCaml avancé"
     img="/ressources/ocaml.png"
     desc="Attendus au programme de MP2I/MPI et compléments de programmation orienté objet. Les parties sur le hachage et la POO seront bientôt disponibles"
@@ -36,17 +27,15 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     badge="En cours de rédaction"
   />
   <div class="divider my-0"></div>
-  
-  <div>
-    <div class="text-3xl w-full font-bold mb-5">Mes cours de mathématiques</div>
-  </div>
+
   <HorizontalCard
-    title="Ensemble et dénombrement - Terminale"
-    img="/ressources/maths-1.png"
-    desc="Attendus au programme"
-    url="https://iryann.github.io/ressources/Cours_de_mathématiques_Term.pdf"
-    
+    title="Bases en Python - ITC CPGE"
+    img="/ressources/python.png"
+    desc="Attendus au programme des deux premiers semestres d'informatique tronc commun en CPGE."
+    url="https://iryann.github.io/ressources/Python.pdf"
+    badge="Non à jour"
   />
+ 
   <div class="divider my-0"></div>
   
   <div>
@@ -57,8 +46,20 @@ import HorizontalCard from "../components/HorizontalCard.astro";
       img="/ressources/nuage-de-mots%20(1).png"
       desc="Rappel de calcul propositionnel"
       url="https://iryann.github.io/ressources/CalculP1.pdf"
+      badge="v1"
       
     />
-    <div class="divider my-0"></div>
-  
+  <div class="divider my-0"></div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Mes cours de mathématiques</div>
+  </div>
+  <HorizontalCard
+    title="Ensemble et dénombrement - Terminale"
+    img="/ressources/maths-1.png"
+    desc="Attendus au programme"
+    url="https://iryann.github.io/ressources/Cours_de_mathématiques_Term.pdf"
+    badge="En cours de complétion"
+    
+  />
 </BaseLayout>

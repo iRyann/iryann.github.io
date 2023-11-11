@@ -4,8 +4,19 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
 <BaseLayout title = "Ressources" sideBarActiveItemID="ressources">
+
+  <div class="pb-12 mt-5">
+    <div class="text-5xl font-bold">Ressources personnelles</div>
+    <div class="py-2">
+      <text class="text-lg">
+        Vous retrouverez ici des <b>fiches mémoires</b> en informatique théoriques (essentiellement sur le programme de MPI), des <b>cours de programmation</b>, 
+        ainsi que mes <b>fiches d'approfondissement</b> dans les domaines qui m'intéressent.
+      </text>
+    </div>
+  </div>
+  <div class="divider my-0"></div>
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Mes cours d'informatique</div>
+    <div class="text-3xl w-full font-bold mb-5">Mes cours de programmation</div>
   </div>
 
   <HorizontalCard
@@ -13,7 +24,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     img="/ressources/python.png"
     desc="Attendus au programme des deux premiers semestres d'informatique tronc commun en CPGE."
     url="https://iryann.github.io/ressources/Python.pdf"
-    badge="En cours de rédaction"
+    badge="Non à jour"
   />
   <div class="divider my-0"></div>
   
@@ -39,7 +50,15 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   <div class="divider my-0"></div>
   
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Mes fiches de philosophie</div>
+    <div class="text-3xl w-full font-bold mb-5">Mes fiches mémoire</div>
   </div>
+  <HorizontalCard
+      title="Algèbre de Boole"
+      img="/ressources/prop.png"
+      desc="Rappel de calcul propositionnel"
+      url="https://iryann.github.io/ressources/CalculP1.pdf"
+      
+    />
+    <div class="divider my-0"></div>
   
 </BaseLayout>
